@@ -1,0 +1,24 @@
+body {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: purple;
+}
+
+button {
+    border: 1px solid purple;
+    background: yellow;
+    color: purple;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 4px;
+    padding: 5px 10px;
+}
+
+
+input {border: 1px solid purple;padding: 10px;transition: box-shadow 0.5s, border 0.5s;}
+
+input:focus {
+    border: 1px solid yellow;
+    box-shadow: 0 0 5px 1px yellow;
+    outline: none;
+}
